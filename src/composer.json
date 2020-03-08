@@ -1,0 +1,25 @@
+{
+    "name": "atp/laravel-7-preset",
+    "description": "The default preset for ATP",
+    "keywords": ["laravel", "laravel-preset"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "alextpritchard@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "ATP\\LaravelPreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ATP\\LaravelPreset\\ATPServiceProvider"
+            ]
+        }
+    }
+}
